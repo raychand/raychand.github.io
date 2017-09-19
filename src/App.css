@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-weight: 600;
+    letter-spacing: -2px;
+    font-size: 3em;
+    color: #222;
+}
+
+.App {
+    /* max-width: 800px; */
+    text-align: center;
+}
+
+.routes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.routes li {
+    margin: 16px;
+}
+a {
+    font-weight: 300;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    line-height: 36px;
+    
+}
+
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
+
